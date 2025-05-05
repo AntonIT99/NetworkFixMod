@@ -1,0 +1,18 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.minecraftforge.network.simple",
+  "refmap": "networkfix.refmap.json",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "MixinIndexedMessageCodec",
+    "MixinMessageHandler"
+  ],
+  "client": [
+  ],
+  "server": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
